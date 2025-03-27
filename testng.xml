@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Qapitol/IdeaProjects/trello/src/test/java/com/samplebooks/pooling.java">
+        <classes>
+            <class name="com.samplebooks.pooling">
+                <methods>
+                    <include name="apiPooling"/>
+                    <include name="getStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Qapitol/IdeaProjects/trello/src/test/java/com/samplebooks/TestBaseClass.java">
+        <classes>
+            <class name="com.samplebooks.TestBaseClass">
+                <methods>
+                    <include name="baseClass"/>
+                    <include name="createTest"/>
+                    <include name="getStatus"/>
+                    <include name="listOfBooks"/>
+                    <include name="singleBook"/>
+                    <include name="getAllOrder"/>
+                    <include name="getAnOrder"/>
+                    <include name="updateAnorder"/>
+                    <include name="deleteOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
